@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/character_details_layout.xml" value="0.15364583333333334" />
+        <entry key="app/src/main/res/layout/character_list_item.xml" value="0.45" />
+      </map>
+    </option>
+  </component>
+</project>

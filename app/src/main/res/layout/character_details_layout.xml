@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/almostBlack">
+
+    <carbon.widget.ImageView
+        android:id="@+id/character_image"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        app:carbon_cornerRadius="10dp"
+        tools:background="@color/black"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@id/character_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/character_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            tools:text="Name: Rick Sanchez" />
+
+        <TextView
+            android:id="@+id/character_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            tools:text="Status: Alive" />
+
+        <TextView
+            android:id="@+id/character_species"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            tools:text="Species: Human" />
+
+        <TextView
+            android:id="@+id/character_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            tools:text="Gender: Male" />
+
+        <TextView
+            android:id="@+id/character_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            tools:text="Origin: Earth (C-137)" />
+
+        <TextView
+            android:id="@+id/character_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            tools:text="Location: Citadel of Ricks" />
+    </LinearLayout>
+
+
+</RelativeLayout>
